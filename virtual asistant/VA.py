@@ -21,7 +21,7 @@ from dotenv import load_dotenv
 # --- CONFIGURATION & INITIALIZATION ---
 # Load environment variables securely from local .env configuration
 load_dotenv()
-GROQ_API_KEY = os.getenv("gsk_jiuoQAziMERaHUQAiIdZWGdyb3FYq0sY9DoocLh8LuUUEyl") # API is deactived
+GROQ_API_KEY = os.getenv("gsk_jiuoQAziMERaHUQAiIdZWGdyb3FYq0suUUEyl") # API is deactivated
 
 # Instantiate enterprise API endpoints and peripheral listener tools
 client = Groq(api_key=GROQ_API_KEY)
